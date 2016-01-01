@@ -1,0 +1,40 @@
+<!-- SettingsViewController -->
+<scene sceneID="gpw-wK-MOS">
+<objects>
+<viewController title="SettingsViewController" id="VVU-az-qzB" customClass="SettingsViewController4" sceneMemberID="viewController">
+<view key="view" contentMode="scaleToFill" id="wyI-Ka-O2P">
+<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Default Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p3j-le-dci">
+<rect key="frame" x="55" y="91" width="210" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="17"/>
+<color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+<nil key="highlightedColor"/>
+</label>
+<segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" id="qmW-fG-FtJ">
+<rect key="frame" x="20" y="120" width="280" height="29"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<segments>
+<segment title="18%"/>
+<segment title="20%"/>
+<segment title="22%"/>
+</segments>
+</segmentedControl>
+</subviews>
+<color key="backgroundColor" red="0.46274513010000001" green="0.93333339689999995" blue="0.2196078598" alpha="1" colorSpace="deviceRGB"/>
+</view>
+<navigationItem key="navigationItem" title="Settings" id="mEY-Ql-dhZ">
+<barButtonItem key="leftBarButtonItem" title="Calculator" id="RRO-ZY-Wrj">
+<connections>
+<segue destination="BYZ-38-t0r" kind="push" id="9kt-fe-0zD"/>
+</connections>
+</barButtonItem>
+</navigationItem>
+<simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="rUe-Su-l9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="1939" y="315"/>
+</scene>

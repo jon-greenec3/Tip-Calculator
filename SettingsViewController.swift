@@ -10,7 +10,7 @@ import UIKit
 
 class SettingsViewController2: UIViewController {
     
-    @IBOutlet weak var defaultTipPercentage: UISegmentedControl
+    @IBOutlet weak var defaultTipPercentage: UISegmentedControl!
     
     override func viewWillAppear() {
         super.viewWillAppear()

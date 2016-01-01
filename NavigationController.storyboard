@@ -1,0 +1,23 @@
+<!-- Tip Calculator -->
+<scene sceneID="CKb-vE-wDB">
+<objects>
+<navigationController title="Tip Calculator" automaticallyAdjustsScrollViewInsets="NO" id="gFb-eF-drR" sceneMemberID="viewController">
+<toolbarItems/>
+<navigationBar key="navigationBar" contentMode="scaleToFill" id="XAt-HR-5dP">
+<rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+<autoresizingMask key="autoresizingMask"/>
+</navigationBar>
+<nil name="viewControllers"/>
+<connections>
+<segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CPk-cN-zEy"/>
+</connections>
+</navigationController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="XL9-5J-Ub9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="1110" y="315"/>
+</scene>
+</scenes>
+<inferredMetricsTieBreakers>
+<segue reference="9kt-fe-0zD"/>
+</inferredMetricsTieBreakers>
+</document>
